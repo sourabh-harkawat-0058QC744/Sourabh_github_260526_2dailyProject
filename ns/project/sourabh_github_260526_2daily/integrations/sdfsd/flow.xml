@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="3.2" CLEANUP="false">
+<FLOW VERSION="3.2" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
 <INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
   <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="LowerFSPackage" SERVICE="LowerFSPackage:lowerFS">
 </INVOKE>
 </FLOW>
